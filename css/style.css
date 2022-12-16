@@ -1,0 +1,35 @@
+#countdown {
+  color: #0d6efd;
+  padding: 10px;
+}
+
+/* #cards {
+  display: none;
+} */
+
+#loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader-con {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000eb;
+  width: 100%;
+  height: 100%;
+}
+
+.list-group-item {
+  background: transparent;
+}
+.imge {
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
